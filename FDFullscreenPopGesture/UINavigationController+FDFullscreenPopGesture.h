@@ -36,7 +36,7 @@
 
 /// A view controller is able to control navigation bar's appearance by itself,
 /// rather than a global way, checking "fd_prefersNavigationBarHidden" property.
-/// Default to YES, disable it if you don't want so.
+/// Default to NO, enable or return YES for subclasses
 @property (nonatomic, assign) BOOL fd_viewControllerBasedNavigationBarAppearanceEnabled;
 
 @end
